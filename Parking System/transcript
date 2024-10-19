@@ -1,0 +1,32 @@
+# Reading C:/altera/90/modelsim_ase/tcl/vsim/pref.tcl 
+# do TEST_gate.fdo 
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module parking_system
+# 
+# Top level modules:
+# 	parking_system
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module TEST_gate
+# 
+# Top level modules:
+# 	TEST_gate
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# vsim -L cpld_ver -L uni9000_ver -lib work -t 1ps TEST_gate glbl 
+# Loading work.TEST_gate
+# ** Error: (vsim-19) Failed to access library 'cpld_ver' at "cpld_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-19) Failed to access library 'uni9000_ver' at "uni9000_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.parking_system
+# Loading work.glbl
+# .main_pane.mdi.interior.cs.vm.paneset.cli_0.wf.clip.cs.pw.wf
+# .main_pane.workspace.interior.cs.nb.canvas.notebook.cs.page2.cs
+# .main_pane.signals.interior.cs
+# Scenario 1: System Reset
+# Reset completed, system is in IDLE state. HEX_1 = 1111111, HEX_2 = 1111111
+# Scenario 2: Vehicle arrives and enters correct password
+# Error: Green LED should be ON
